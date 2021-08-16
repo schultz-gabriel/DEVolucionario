@@ -21,7 +21,7 @@ A maior parte do repositorio está utilizando o yarn para administrar os pacotes
     $ yarn install
 
     - Rodar aplicativo
-    $ yarn run
+    $ yarn dev
 
     - Acesse http://localhost:3000/ e navegue pelo site
 
