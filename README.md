@@ -15,7 +15,7 @@ A maior parte do repositorio está utilizando o yarn para administrar os pacotes
 ## 📋 Instalação Base
 
     - Clonar repositorio
-    $ git clone https://github.com/carolandrade1/template && cd template
+    $ git clone https://github.com/carolandrade1/template_next_styled && cd template_next_styled
 
     - Instalar dependencias
     $ yarn install
@@ -26,7 +26,7 @@ A maior parte do repositorio está utilizando o yarn para administrar os pacotes
     - Acesse http://localhost:3000/ e navegue pelo site
 
 
-<!-- ## 📦 Pacotes e dependencias (caso queira começar do zero)
+## 📦 Pacotes e dependencias, caso queira começar do zero.
 
     - Next.js + styled-components
     yarn create next-app --example with-styled-components
@@ -55,4 +55,4 @@ A maior parte do repositorio está utilizando o yarn para administrar os pacotes
     "commit": "cz"
 
     - Prop Types
-    npm install --save prop-types -->
+    npm install --save prop-types
