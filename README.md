@@ -26,13 +26,28 @@ git clone https://github.com/carolandrade1/template_next_styled && cd template_n
 yarn install
 ```
 
-3. Rodar aplicativo
+3. Trocar URL do repositorio remoto (caso necessário)
+
+3.1. Ver qual o repositorio atual
+```
+git remote -v
+```
+3.2. Mudar a URL do repositorio remoto
+```
+git remote set-url origin <LinkDoNovoRepositorio>
+```
+3.3. Verifique se a mudança foi realizada
+```
+git remote -v
+```
+
+4. Rodar aplicativo
 
 ```
 yarn dev
 ```
 
-4. Acesse http://localhost:3000/ e navegue pelo site
+5. Acesse http://localhost:3000/ e navegue pelo site
 
 ## 📦 Pacotes e dependencias, caso queira começar do zero.
 
