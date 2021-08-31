@@ -11,12 +11,13 @@ import SEO from '../../commons/SEO';
 // import ContactButton from '../../commons/ContactButton';
 
 export const WebsitePageContext = React.createContext({
-  toggleModalCadastro: () => {},
+  toggleModalCadastro: () => { },
 });
 
 export default function WebsitePageWrapper({
   children,
   seoProps,
+  toggleTheme,
   // pageBoxProps,
 }) {
   const [isModalOpen, setModalState] = React.useState(false);
@@ -33,7 +34,7 @@ export default function WebsitePageWrapper({
       <SEO
         {...seoProps}
       />
-      <Header />
+      <Header toggleTheme={toggleTheme} />
       <Nav />
       {children}
       <Footer />
@@ -47,9 +48,11 @@ WebsitePageWrapper.defaultProps = {
   menuProps: {
     display: true,
   },
+  toggleTheme: () => { },
 };
 
 WebsitePageWrapper.propTypes = {
+  toggleTheme: PropTypes.func,
   seoProps: PropTypes.shape({
     headTitle: PropTypes.string,
   }),
