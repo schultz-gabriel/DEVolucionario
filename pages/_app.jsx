@@ -1,10 +1,15 @@
-/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-props-no-spreading */
 import Head from 'next/head';
-import React from 'react';
+import React, { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import { dark, light } from '../src/theme/colorThemes';
 
 export default function App({ Component, pageProps }) {
+  const [colorTheme, setColorTheme] = useState(dark);
+  const toggleTheme = () => {
+    setColorTheme(colorTheme.title === 'light' ? dark : light);
+  };
+
   return (
     <>
       <Head>
@@ -14,7 +19,9 @@ export default function App({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider theme={colorTheme}>
+        <Component toggleTheme={toggleTheme} {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }
