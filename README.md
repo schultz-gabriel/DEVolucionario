@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/SchultzGabriel/Aluralunos?style=for-the-badge)![GitHub contributors](https://img.shields.io/github/contributors/SchultzGabriel/Aluralunos?style=for-the-badge)
 # Repositorio Base
 
 A ideia do repositorio é servir de base para novos projetos. Com todos os pacotes e depencias necessarias para iniciar da melhor forma. O projeto foi criado com Next.js e styled-components. Para configuração do projeto, foram instalados:
