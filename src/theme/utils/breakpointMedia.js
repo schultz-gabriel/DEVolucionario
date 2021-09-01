@@ -8,7 +8,7 @@ function breakpointsMedia(cssByBreakpoints) {
   const breakpointsNames = Object.keys(cssByBreakpoints);
   return breakpointsNames
     .map((breakpointName) => css`
-      @media screen and (max-width: ${breakpoints[breakpointName]}px) {
+      @media screen and (min-width: ${breakpoints[breakpointName]}px) {
         ${cssByBreakpoints[breakpointName]}
       }
     `);
