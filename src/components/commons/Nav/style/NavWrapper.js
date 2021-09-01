@@ -6,13 +6,14 @@ const NavWrapper = styled.nav`
 display:flex;
 flex-direction: column;
 justify-content:space-around;
+flex-shrink:0;
 background-color: rgba(0, 0, 0, 0.8);
 width:100%;
 height:100%;
 position:absolute;
-bottom:0;
 transition: ${({ theme }) => theme.transition};
 transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-150%)'};
+margin:0;
 
 
 ${breakpointMedia({
@@ -20,9 +21,13 @@ ${breakpointMedia({
     width:25%;
     transform: none;
     position:relative;
+    margin:1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: ${({ theme }) => theme.borderRadius};
+    height:300px;
         `,
     md: css`
-    width:20%;
+    width:15%;
     `,
   })};
 `;
