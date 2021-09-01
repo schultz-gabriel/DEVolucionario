@@ -18,7 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
-    'linebreak-style': ['error', process.env.NODE_ENV === 'prod' ? 'unix' : 'windows'],
+    'linebreak-style': 0,
     'react/jsx-props-no-spreading': 'off',
     'import/extensions': [
       1,
