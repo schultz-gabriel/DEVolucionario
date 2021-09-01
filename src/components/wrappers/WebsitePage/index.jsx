@@ -6,9 +6,7 @@ import Nav from '../../commons/Nav';
 import Footer from '../../commons/Footer';
 // import Modal from '../../commons/Modal';
 // import Box from '../../foundation/layout/Box';
-// import FormCadastro from '../../patterns/ContactForm';
 import SEO from '../../commons/SEO';
-// import ContactButton from '../../commons/ContactButton';
 
 export const WebsitePageContext = React.createContext({
   toggleModalCadastro: () => { },
@@ -20,22 +18,26 @@ export default function WebsitePageWrapper({
   toggleTheme,
   // pageBoxProps,
 }) {
-  const [isModalOpen, setModalState] = React.useState(false);
+  const [isMenuOpen, setMenuState] = React.useState(false);
 
   return (
     <WebsitePageContext.Provider
       value={{
         teste: true,
-        toggleModalCadastro: () => {
-          setModalState(!isModalOpen);
+        toggleMenu: () => {
+          setMenuState(!isMenuOpen);
         },
       }}
     >
       <SEO
         {...seoProps}
       />
-      <Header toggleTheme={toggleTheme} />
-      <Nav />
+      <Header
+        toggleTheme={toggleTheme}
+        hamburger={() => setMenuState(!isMenuOpen)}
+        open={isMenuOpen}
+      />
+      <Nav open={isMenuOpen} />
       {children}
       <Footer />
     </WebsitePageContext.Provider>
