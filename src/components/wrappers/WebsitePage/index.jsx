@@ -5,7 +5,7 @@ import Header from '../../commons/Header';
 import Nav from '../../commons/Nav';
 import Footer from '../../commons/Footer';
 // import Modal from '../../commons/Modal';
-// import Box from '../../foundation/layout/Box';
+import Box from '../../foundation/layout/Box';
 import SEO from '../../commons/SEO';
 
 export const WebsitePageContext = React.createContext({
@@ -37,8 +37,13 @@ export default function WebsitePageWrapper({
         hamburger={() => setMenuState(!isMenuOpen)}
         open={isMenuOpen}
       />
-      <Nav open={isMenuOpen} />
-      {children}
+      <Box
+        display="flex"
+        height="100%"
+      >
+        <Nav open={isMenuOpen} />
+        {children}
+      </Box>
       <Footer />
     </WebsitePageContext.Provider>
   );

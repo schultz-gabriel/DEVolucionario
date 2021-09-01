@@ -61,7 +61,7 @@ export const dark = {
   primary: {
     main: {
       color: '#D7385E',
-      contrastText: '#D7385E',
+      contrastText: '#fff',
     },
   },
   secondary: {
