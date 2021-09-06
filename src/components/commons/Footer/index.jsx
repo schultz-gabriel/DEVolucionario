@@ -3,6 +3,6 @@ import FooterWrapper from './style/FooterWrapper';
 
 export default function Nav() {
   return (
-    <FooterWrapper>aa</FooterWrapper>
+    <FooterWrapper>Aluralunos &copy; - 2021</FooterWrapper>
   );
 }
