@@ -6,8 +6,9 @@ import breakpointMedia from '../../../theme/utils/breakpointMedia';
 const IndexWrapper = styled.main`
 width:100%;
 margin:0;
-background-color: rgba(0, 0, 0, 0.2);
+background-color: ${({ theme }) => theme.background.light.color};
 border-radius: ${({ theme }) => theme.borderRadius};
+border: 20px solid #5081FB;
 margin:1rem;
 display:flex;
 flex-direction:column;

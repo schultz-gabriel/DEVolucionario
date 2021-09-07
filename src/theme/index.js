@@ -13,5 +13,5 @@ export default {
   breakpoints,
   borderRadius: '12px',
   transition: '200ms ease-in-out',
-  fontFamily: '\'Press Start 2P\', cursive',
+  fontFamily: '\'Roboto\', sans-serif',
 };
