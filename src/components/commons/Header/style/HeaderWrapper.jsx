@@ -13,9 +13,9 @@ const HeaderWrapper = styled.header`
   div:nth-child(3){
     ${breakpointMedia({
     sm: css`
-      display:none;
         `,
     md: css`
+    display:none;
     `,
   })};
 }

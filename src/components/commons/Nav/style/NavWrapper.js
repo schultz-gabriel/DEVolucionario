@@ -18,6 +18,8 @@ margin:0;
 
 ${breakpointMedia({
     sm: css`
+        `,
+    md: css`
     width:25%;
     transform: none;
     position:relative;
@@ -25,9 +27,7 @@ ${breakpointMedia({
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: ${({ theme }) => theme.borderRadius};
     height:300px;
-        `,
-    md: css`
-    width:15%;
+    /* width:15%; */
     `,
   })};
 `;
