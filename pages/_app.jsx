@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { dark, light } from '../src/theme/colorThemes';
+import theme from '../src/theme';
 
 export default function App({ Component, pageProps }) {
   const [colorTheme, setColorTheme] = useState(dark);
@@ -9,9 +10,14 @@ export default function App({ Component, pageProps }) {
     setColorTheme(colorTheme.title === 'light' ? dark : light);
   };
 
+  const allThemes = {
+    ...colorTheme,
+    ...theme,
+  };
+
   return (
     <>
-      <ThemeProvider theme={colorTheme}>
+      <ThemeProvider theme={allThemes}>
         <Component toggleTheme={toggleTheme} {...pageProps} />
       </ThemeProvider>
     </>
