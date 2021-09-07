@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const LogoWrapper = styled.div`
   display:flex;
   img{
-    width:200px;
+    width:180px;
   }
 `;
 
