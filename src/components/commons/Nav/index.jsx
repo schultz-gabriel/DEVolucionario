@@ -7,25 +7,33 @@ const links = [
   {
     name: 'início',
     link: '/',
+    icon: '/images/icons/home.png',
   },
   {
-    name: 'videos',
-    link: '/videos',
+    name: 'materiais',
+    link: '/materiais',
+    icon: '/images/icons/open-book.png',
   },
   {
     name: 'sobre nós',
-    link: '/about',
+    link: '/sobre',
+    icon: '/images/icons/pen.png',
   },
 ];
 
 export default function Nav({ open }) {
   return (
     <NavWrapper open={open}>
-      {links.map((item) => (
-        <Button key={item.name} href={item.link}>
-          {item.name}
-        </Button>
-      ))}
+      <ul>
+        {links.map((item) => (
+          <li key={item.name}>
+            <Button href={item.link} className="link">
+              <img src={item.icon} alt="" />
+              {item.name}
+            </Button>
+          </li>
+        ))}
+      </ul>
     </NavWrapper>
   );
 }
