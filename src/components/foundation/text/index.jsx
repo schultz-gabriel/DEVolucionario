@@ -44,6 +44,7 @@ const TextBase = styled.span`
   ${propToStyle('marginBottom')}
   ${propToStyle('marginTop')}
   ${propToStyle('margin')}
+  ${propToStyle('padding')}
   ${propToStyle('textShadow')}
   ${propToStyle('display')}
 `;
