@@ -11,12 +11,12 @@ export default function Main() {
       <Text
         variant="title"
         tag="h1"
-        color="primary.main"
+        color="secondary.main"
         textAlign={{
           md: 'center',
         }}
         margin="1rem"
-        textShadow="2px 2px 2px black"
+        // textShadow="2px 2px 2px black"
       >
         SEJA BEM-VINDO!
       </Text>
@@ -30,7 +30,7 @@ export default function Main() {
               xs: 'left',
             }}
             margin="1rem"
-            textShadow="2px 2px 2px black"
+            // textShadow="2px 2px 2px black"
             padding={{
               md: '3rem',
             }}
