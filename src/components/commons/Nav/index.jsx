@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import NavWrapper from './style/NavWrapper';
 import Button from '../Button';
+import Text from '../../foundation/text';
 
 const links = [
   {
@@ -29,7 +30,17 @@ export default function Nav({ open }) {
           <li key={item.name}>
             <Button href={item.link} className="link">
               <img src={item.icon} alt="" />
-              {item.name}
+              <Text
+                variant="paragraph1"
+                tag="span"
+                color="secondary.main"
+                textAlign={{
+                  xs: 'center',
+                }}
+                margin="0"
+              >
+                {item.name}
+              </Text>
             </Button>
           </li>
         ))}
