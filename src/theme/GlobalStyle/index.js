@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
       min-height: 100vh;
       width: 100%;
       background-color: ${({ theme }) => theme.background.main.color};
+      transition: all ${({ theme }) => theme.transition};
     }
     
     ul {
