@@ -38,7 +38,7 @@ export default function Main() {
           </Text>
           <div className="links">
             <Link href="/htmlpage">HTML</Link>
-            <Link href="/index">CSS</Link>
+            <Link href="/csspage">CSS</Link>
             <Link href="/index">JS</Link>
           </div>
         </TextArea.ContentCol>
