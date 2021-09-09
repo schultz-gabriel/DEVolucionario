@@ -6,7 +6,7 @@ const NavWrapper = styled.nav`
 display:flex;
 flex-direction: column;
 justify-content:space-around;
-background-color: rgba(0,0,0,1);
+background-color: ${({ theme }) => theme.background.main.color};
 width:100%;
 height:100%;
 position:absolute;

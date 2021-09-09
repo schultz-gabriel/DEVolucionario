@@ -15,11 +15,19 @@ img {
 }
 
 .links {
-height: 200px;
+margin-top: 20px;
+height: 130px;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
 align-items: center;
+}
+
+.links a {
+  width: 150px;
+  padding: 10px 25px;
+  background-color: ${({ theme }) => theme.primary.main.color};
+  border-radius: 10px;
 }
 `;
 

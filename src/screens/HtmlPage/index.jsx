@@ -4,33 +4,17 @@ import TextArea from '../../components/foundation/layout/TextArea';
 import Text from '../../components/foundation/text';
 import IndexWrapper from '../IndexPage/style/IndexWrapper';
 import WrapperLinks from './style';
-import Link from '../../components/foundation/link';
 
 const JSONQUALQUER = [
   {
     titulo: 'Utilidades',
     descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'google.com',
+    link: 'https://www.google.com/',
   },
   {
     titulo: 'Utilidades',
     descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'google.com',
-  },
-  {
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'google.com',
-  },
-  {
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'google.com',
-  },
-  {
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'google.com',
+    link: 'https://www.google.com/',
   },
 ];
 
@@ -63,10 +47,11 @@ function Html() {
           <WrapperLinks>
             {JSONQUALQUER.map((item) => (
               <li key={item.titulo}>
-                <Link
-                  ghost
+                <a
                   href={item.link}
                   title={item.titulo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Box
                     className="link"
@@ -102,7 +87,7 @@ function Html() {
                       <path d="M21.875 20.4167H53.125V49.5834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </Box>
-                </Link>
+                </a>
               </li>
             ))}
           </WrapperLinks>
