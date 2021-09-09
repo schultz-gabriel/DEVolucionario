@@ -1,0 +1,37 @@
+{
+    "html": [
+        {
+            "nome": "Elementos HTML",
+            "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element",
+            "descricao": "Conheça as principais tags do HTML e como usá-las."
+        },
+        {
+            "nome": "HTML Semântico: Conheça os elementos semânticos da HTML5",
+            "link": "https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065",
+            "descricao": "Seja um mestre e entenda um dos pilares do HTML."
+        }
+    ],
+    "css":[
+        {
+            "nome": "Flexbox",
+            "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            "descricao": "Um guia completo para você entender um dos conceitos mais importantes do CSS."
+        }, {
+            "nome": "Metodologia BEM",
+            "link": "https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem",
+            "descricao": "Que nome dar para suas classes de objetos? É bom saber desde o início."
+        }
+    ],
+    "javascript":[
+        {
+            "nome": "Sintaxe e tipos",
+            "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types",
+            "descricao": "Como declarar variáveis e funções com primazia"
+        },
+        {
+            "nome": "Algoritmos e estrutura de dados com JavaScript",
+            "link": "https://imasters.com.br/desenvolvimento/algoritmos-e-estrutura-de-dados-classicos-em-javascript",
+            "descricao": "Aprendendo as bases da programação com JavaScript."
+        }
+    ]
+}
