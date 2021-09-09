@@ -9,6 +9,11 @@ const WrapperLinks = styled.ul`
 
   li {
     padding: 10px 0;
+    transition: ease-in-out 200ms;
+
+      &:hover {
+        transform: scale(1.05);
+      }
   }
 
   .link {
@@ -22,9 +27,18 @@ const WrapperLinks = styled.ul`
     ${breakpointsMedia({
     md: css`
       display: initial;
+      border-radius: 50%;
+      transform: rotate(45deg);
+      transition: ease-in-out 0.3s;
     `,
   })}
   }
+
+  li:hover .arrow {
+    transform: rotate(0);
+  }
+
+
 `;
 
 export default WrapperLinks;

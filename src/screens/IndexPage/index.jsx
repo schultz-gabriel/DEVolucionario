@@ -26,13 +26,11 @@ export default function Main() {
             variant="paragraph1"
             tag="p"
             color="secondary.main"
-            textAlign={{
-              xs: 'left',
-            }}
+            textAlign="justify"
             margin="1rem"
             // textShadow="2px 2px 2px black"
             padding={{
-              md: '2.5rem',
+              md: '2rem',
             }}
             textJustify="justify"
           >
