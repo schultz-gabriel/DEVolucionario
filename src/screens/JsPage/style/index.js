@@ -25,13 +25,13 @@ const WrapperLinks = styled.ul`
     display: none;
 
     ${breakpointsMedia({
-  md: css`
+    md: css`
       display: initial;
       border-radius: 50%;
       transform: rotate(45deg);
       transition: ease-in-out 0.3s;
     `,
-})}
+  })}
   }
 
   li:hover .arrow {
