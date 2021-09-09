@@ -39,7 +39,7 @@ export default function Main() {
           <div className="links">
             <Link href="/htmlpage">HTML</Link>
             <Link href="/csspage">CSS</Link>
-            <Link href="/jspage">JS</Link>
+            <Link href="/jspage">JAVASCRIPT</Link>
           </div>
         </TextArea.ContentCol>
         <TextArea.DecorativeCol

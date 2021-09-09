@@ -29,6 +29,10 @@ align-items: center;
   background-color: ${({ theme }) => theme.primary.main.color};
   border-radius: 10px;
 }
+
+.links a:hover {
+  transform: scale(1.04);
+}
 `;
 
 export { IndexWrapper as default };
