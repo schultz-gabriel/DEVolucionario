@@ -11,11 +11,15 @@ align-items:center;
 flex-wrap:wrap;
 
 ${breakpointMedia({
+    xs: css`
+    padding: 0 10px;
+    `,
     sm: css`
-    
+    padding: 0 20px;
     `,
     md: css`
     width:100%;
+    padding: 0 20px;
     `,
   })};
 `;
@@ -24,12 +28,14 @@ TextArea.ContentCol = styled.div`
 width:100%;
 margin:0;
 display:flex;
+flex-direction: column;
+text-align: center;
 
 ${breakpointMedia({
     lg: css`    
     ${({ fullWidth }) => (fullWidth
     ? css`width: 100%;`
-    : css`width: 50%;`)
+    : css`width: 60%;`)
 }
     `,
   })};
@@ -42,7 +48,7 @@ display:none;
 
 ${breakpointMedia({
     lg: css`
-        ${propToStyle('width')}
+        ${propToStyle('maxWidth')}
         display:flex;
     `,
   })};
