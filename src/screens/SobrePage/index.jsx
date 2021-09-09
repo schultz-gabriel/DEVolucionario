@@ -57,6 +57,10 @@ function SobrePage({ contributorsData }) {
                       alt={`Foto de perfil de ${contributor.login}`}
                       className="drop-target"
                     />
+                    <span>
+                      github.com/
+                      {contributor.login}
+                    </span>
                   </a>
                 </Tooltip>
               );

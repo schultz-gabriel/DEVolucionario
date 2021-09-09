@@ -19,14 +19,14 @@ export default websitePageHOC(Sobre, {
 
 export async function getStaticProps() {
   const url = 'https://api.github.com/repos/SchultzGabriel/Aluralunos/contributors';
-  const githubApiKey = process.env.GITHUB_API_KEY;
-  const headers = {
-    Authorization: `token ${githubApiKey}`,
-  };
+  // const githubApiKey = process.env.GITHUB_API_KEY;
+  // const headers = {
+  //   Authorization: `token ${githubApiKey}`,
+  // };
 
   const contributorsData = await fetch(url, {
     method: 'GET',
-    headers,
+    // headers,
   })
     .then((res) => {
       if (res.ok) {
@@ -40,7 +40,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      contributorsData,
+      contributorsData: contributorsData || null,
     },
   };
 }
