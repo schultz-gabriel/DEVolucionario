@@ -6,7 +6,7 @@ const NavWrapper = styled.nav`
 display:flex;
 flex-direction: column;
 justify-content:space-around;
-background-color: ${({ theme }) => theme.background.light.color};
+background-color: rgba(0,0,0,1);
 width:100%;
 height:100%;
 position:absolute;
@@ -57,10 +57,10 @@ ${breakpointMedia({
     transform: none;
     position:relative;
     margin:1rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: ${({ theme }) => theme.borderRadius};
     height:300px;
-    background-color: ${({ theme }) => theme.background.light.color};
+    background-color: rgba(0,0,0, 0.1);
     border-radius: ${({ theme }) => theme.borderRadius};
     border: 10px solid #5081FB;
 

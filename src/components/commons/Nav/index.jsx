@@ -11,11 +11,6 @@ const links = [
     icon: '/images/icons/home.png',
   },
   {
-    name: 'materiais',
-    link: '/materiais',
-    icon: '/images/icons/open-book.png',
-  },
-  {
     name: 'sobre nós',
     link: '/sobre',
     icon: '/images/icons/pen.png',
