@@ -21,6 +21,24 @@ const GlobalStyle = createGlobalStyle`
       background-color: ${({ theme }) => theme.background.main.color};
     }
     
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.secondary.main.color};
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+
+
+
     #__next {
       flex: 1;
       display: flex;
