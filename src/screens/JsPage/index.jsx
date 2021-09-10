@@ -4,20 +4,7 @@ import TextArea from '../../components/foundation/layout/TextArea';
 import Text from '../../components/foundation/text';
 import IndexWrapper from '../IndexPage/style/IndexWrapper';
 import WrapperLinks from './style';
-
-const JSONQUALQUER = [
-  {
-    id: 1,
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'https://www.google.com/',
-  },
-  {
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'https://www.google.com/',
-  },
-];
+import Links from '../../../Links';
 
 function Javascript() {
   return (
@@ -48,7 +35,7 @@ function Javascript() {
             até grandes aplicativos e jogos.
           </Text>
           <WrapperLinks>
-            {JSONQUALQUER.map((item) => (
+            {Links.javascript.map((item) => (
               <li key={item.titulo}>
                 <a
                   href={item.link}
@@ -73,6 +60,7 @@ function Javascript() {
                         tag="p"
                         color="secondary.main"
                         textAlign="left"
+                        textShadow="2px 2px 3px black"
                       >
                         {item.titulo}
                       </Text>
