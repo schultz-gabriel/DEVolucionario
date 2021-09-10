@@ -36,6 +36,7 @@ const WrapperLinks = styled.ul`
 
   li:hover .arrow {
     transform: rotate(0);
+    background-color: white;
   }
 
 

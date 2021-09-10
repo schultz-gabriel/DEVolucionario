@@ -34,7 +34,7 @@ export default function Main() {
             }}
             textJustify="justify"
           >
-            A imersão dev_ será divida em 10 aulas gratuitas para você poder aprender a criar seus primeiros códigos e começar a sua carreira em programação. Esse site tem o intuito de reunir vários materiais sobre HTML, CSS e JS para auxiliar os alunos nessa jornada!
+            Se você está aqui agora, é porque está dando seus primeiros mergulhos em tecnologia. Ficamos muito felizes com isso! Nós, alunos da Alura (que também começaram suas carreiras nas imersões passadas) nos unimos para criar essa biblioteca de materiais que vai te auxiliar nesse início dessa incrível jornada.
           </Text>
           <div className="links">
             <Link href="/htmlpage">HTML</Link>

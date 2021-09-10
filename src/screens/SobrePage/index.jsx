@@ -28,16 +28,10 @@ function SobrePage({ contributorsData }) {
               xs: 'justify',
             }}
           >
-            Velit consequat reprehenderit non fugiat labore anim et.
-            Reprehenderit nulla amet sit ex minim occaecat sint qui
-            mollit velit eu. Elit tempor ullamco nostrud magna esse
-            quis veniam incididunt pariatur anim ipsum velit. Ipsum
-            ullamco amet esse anim ex enim.
-            Velit consequat reprehenderit non fugiat labore anim et.
-            Reprehenderit nulla amet sit ex minim occaecat sint qui
-            mollit velit eu. Elit tempor ullamco nostrud magna esse
-            quis veniam incididunt pariatur anim ipsum velit. Ipsum
-            ullamco amet esse anim ex enim.
+            A equipe dos Aluralunos jamais teria chegado até aqui sem ajuda dos
+            colegas e da comunidade da Alura, por isso, fazemos questão de ajudar você,
+            pois ninguém chega a lugar algum sozinho. Abaixo, você encontra o Github dos
+            alunos que ajudaram a criar esse projeto.
           </Text>
           <WrapperContributorsData>
             {contributorsData.map((contributor) => {
