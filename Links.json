@@ -67,24 +67,19 @@
             "link": "https://www.alura.com.br/artigos/css-animacoes-com-transitions-animations"
         },
         {
-            "titulo": "CSS Full Course - Includes Flexbox and CSS Grid Tutorials",
+            "titulo": "Curso completo de CSS - Incluindo Flexbox e Grid",
             "descricao": "Curso/Video (Inglês)",
             "link": "https://www.youtube.com/watch?v=ieTHC78giGQ"
         },
         {
             "titulo": "FLexbox Froggy",
-            "descricao": "Exercícios (Inglês)",
+            "descricao": "Joguinho para aprender Flexbox divertidamente (Inglês)",
             "link": "https://flexboxfroggy.com/"
         },
         {
             "titulo": "Grid Garden",
-            "descricao": "Exercícios (Inglês)",
+            "descricao": "Exercícios divertidos de Grid, semelhante ao Froggy (Inglês)",
             "link": "https://cssgridgarden.com/"
-        },
-        {
-            "titulo": "A Complete Guide to Flexbox",
-            "descricao": "Guia (Inglês)",
-            "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
         },
         {
             "titulo": "A Complete Guide to Grid",
@@ -144,8 +139,8 @@
             "link": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
         },
         {
-            "titulo": "JavaScript - Tutoriais",
-            "descricao": "Artigo MDN",
+            "titulo": "Tutoriais de JavaScript",
+            "descricao": "Artigo MDN dando várias dicas para iniciantes e experientes na linguagem.",
             "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
         }
     ]

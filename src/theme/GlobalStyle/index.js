@@ -38,7 +38,9 @@ const GlobalStyle = createGlobalStyle`
       margin: 0;
     }
 
-
+    h3{
+      margin:0;
+    }
 
     #__next {
       flex: 1;
