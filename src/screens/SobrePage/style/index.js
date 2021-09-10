@@ -34,8 +34,8 @@ const WrapperContributorsData = styled.div`
   }
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin: 6px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -45,6 +45,13 @@ const WrapperContributorsData = styled.div`
       box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
       transform: scale(1.2);
     }
+
+    ${breakpointMedia({
+    md: css`
+      width: 90px;
+      height: 90px;
+    `,
+  })};
   }
 `;
 

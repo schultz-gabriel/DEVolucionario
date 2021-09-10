@@ -72,10 +72,15 @@ function Css() {
                         {item.descricao}
                       </Text>
                     </Box>
-                    <svg className="arrow" width="55" height="50" viewBox="0 0 75 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M21.875 49.5834L53.125 20.4167" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M21.875 20.4167H53.125V49.5834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
+                    <Box
+                      display="grid"
+                      placeItems="center"
+                    >
+                      <svg className="arrow" viewBox="0 0 75 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.875 49.5834L53.125 20.4167" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M21.875 20.4167H53.125V49.5834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </Box>
                   </Box>
                 </a>
               </li>
