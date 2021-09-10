@@ -17,12 +17,13 @@ img {
 }
 
 .links {
-margin-top: 20px;
+margin: 20px 0;
 height: 130px;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
 align-items: center;
+transition: ${({ theme }) => theme.transition};
 }
 
 .links a {

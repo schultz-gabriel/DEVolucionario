@@ -58,7 +58,7 @@ export const dark = {
   },
   secondary: {
     main: {
-      color: '#EBEBF0',
+      color: '#FFFFFF',
       // contrastText: '#fff',
     },
   },

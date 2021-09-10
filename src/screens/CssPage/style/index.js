@@ -27,6 +27,8 @@ const WrapperLinks = styled.ul`
     ${breakpointsMedia({
     md: css`
       display: initial;
+      width: 45px;
+      height: 45px;
       border-radius: 50%;
       transform: rotate(45deg);
       transition: ease-in-out 0.3s;
