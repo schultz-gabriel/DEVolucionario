@@ -4,19 +4,7 @@ import TextArea from '../../components/foundation/layout/TextArea';
 import Text from '../../components/foundation/text';
 import IndexWrapper from '../IndexPage/style/IndexWrapper';
 import WrapperLinks from './style';
-
-const JSONQUALQUER = [
-  {
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'https://www.google.com/',
-  },
-  {
-    titulo: 'Utilidades',
-    descricao: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, a.',
-    link: 'https://www.google.com/',
-  },
-];
+import Links from '../../../Links';
 
 function Css() {
   return (
@@ -45,7 +33,7 @@ function Css() {
             mas permanece simples e direta.
           </Text>
           <WrapperLinks>
-            {JSONQUALQUER.map((item) => (
+            {Links.css.map((item) => (
               <li key={item.titulo}>
                 <a
                   href={item.link}
@@ -68,9 +56,10 @@ function Css() {
                     >
                       <Text
                         variant="subTitle"
-                        tag="p"
+                        tag="h3"
                         color="secondary.main"
                         textAlign="left"
+                        textShadow="2px 2px 3px black"
                       >
                         {item.titulo}
                       </Text>
