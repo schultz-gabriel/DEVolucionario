@@ -55,10 +55,10 @@ function Html() {
                     >
                       <Text
                         variant="subTitle"
-                        tag="p"
+                        tag="h3"
                         color="secondary.main"
                         textAlign="left"
-                        textShadow="2px 2px 3px black"
+                        textShadow="2px 2px 3px #808080"
                       >
                         {item.titulo}
                       </Text>

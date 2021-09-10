@@ -60,9 +60,6 @@ export default function Text({
       variant={variant}
       // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}
-      // style
-      // className
-      // e ai vai
     >
       {children}
     </TextBase>
