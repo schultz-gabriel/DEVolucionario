@@ -34,7 +34,7 @@ export default function Main() {
             }}
             textJustify="justify"
           >
-            Se você está aqui agora, é porque está dando seus primeiros mergulhos em tecnologia. Ficamos muito felizes com isso e por isso, nos unimos para tentar ajudar vocês nesse incrível início de jornada e criamos essa biblioteca de materiais que irá auxiliar-lós. Uma maravilhosa imersão dev a todos!
+            Se você está aqui, é porque está dando seus primeiros mergulhos em tecnologia. Ficamos muito felizes com isso, e nos unimos para ajudar você nesse incrível início de jornada e criamos essa biblioteca de materiais que irá auxiliá-lo. Desejamos uma maravilhosa imersão dev a todos!
           </Text>
           <div className="links">
             <Link href="/htmlpage">HTML</Link>
