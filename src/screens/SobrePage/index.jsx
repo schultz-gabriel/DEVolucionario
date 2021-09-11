@@ -28,7 +28,8 @@ function SobrePage({ contributorsData }) {
               xs: 'justify',
             }}
           >
-            A equipe dos Aluralunos jamais teria chegado até aqui sem ajuda dos
+            Somos alunos da Alura e também começamos nossas jornadas nas imersões passadas.
+            Nós não teríamos chegado até aqui sem ajuda dos
             colegas e da comunidade da Alura, por isso, fazemos questão de ajudar você,
             pois ninguém chega a lugar algum sozinho. Abaixo, você encontra o Github dos
             alunos que ajudaram a criar esse projeto.
