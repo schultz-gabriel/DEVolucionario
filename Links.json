@@ -26,26 +26,17 @@
             "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
         },
         {
+            "titulo": "HTML o ESSENCIAL pra programação Front-end",
+            "descricao": "Video",
+            "link": "https://www.youtube.com/watch?v=qHHXjEmOJyk&ab_channel=DevMedia"
+        },
+        {
             "titulo": "HTML: Linguagem de Marcação de Hipertexto - Tutoriais para iniciantes",
             "descricao": "Artigo MDN",
             "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
         }
     ],
     "css":[
-        {
-            "titulo": "Flexbox",
-            "descricao": "Um guia completo para você entender um dos conceitos mais importantes do CSS.",
-            "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-        }, {
-            "titulo": "Metodologia BEM",
-            "descricao": "Que nome dar para suas classes de objetos? É bom saber desde o início.",
-            "link": "https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem"
-        },
-        {
-            "titulo": "CSS e Padrões Web",
-            "descricao": "Site",
-            "link": "https://www.maujor.com/"
-        },
         {
             "titulo": "O que é CSS?",
             "descricao": "Video",
@@ -56,6 +47,16 @@
             "descricao": "Video",
             "link": "https://www.youtube.com/watch?v=229xfk3EEM8"
         },
+        {
+            "titulo": "CSS e Padrões Web",
+            "descricao": "Site",
+            "link": "https://www.maujor.com/"
+        },       
+        {
+            "titulo": "Metodologia BEM",
+            "descricao": "Que nome dar para suas classes de objetos? É bom saber desde o início.",
+            "link": "https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem"
+        },       
         {
             "titulo": "Pare de chutar CSS",
             "descricao": "Lista de videos do Marco Bruno onde ele explica várias propriedades do CSS",
@@ -72,14 +73,19 @@
             "link": "https://www.youtube.com/watch?v=ieTHC78giGQ"
         },
         {
+            "titulo": "CSS FlexBox: Dicas para começar",
+            "descricao": "Video",
+            "link": "https://www.youtube.com/watch?v=326-B1avuYo&ab_channel=AluraCursosOnline"
+        },
+        {
+            "titulo": "Flexbox",
+            "descricao": "Um guia completo para você entender um dos conceitos mais importantes do CSS.",
+            "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+        }, 
+        {
             "titulo": "FLexbox Froggy",
             "descricao": "Joguinho para aprender Flexbox divertidamente (Inglês)",
             "link": "https://flexboxfroggy.com/"
-        },
-        {
-            "titulo": "Grid Garden",
-            "descricao": "Exercícios divertidos de Grid, semelhante ao Froggy (Inglês)",
-            "link": "https://cssgridgarden.com/"
         },
         {
             "titulo": "A Complete Guide to Grid",
@@ -87,22 +93,17 @@
             "link": "https://css-tricks.com/snippets/css/complete-guide-grid/"
         },
         {
+            "titulo": "Grid Garden",
+            "descricao": "Exercícios divertidos de Grid, semelhante ao Froggy (Inglês)",
+            "link": "https://cssgridgarden.com/"
+        },       
+        {
             "titulo": "CSS - Tutoriais",
             "descricao": "Artigo MDN",
             "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
         }
     ],
     "javascript":[
-        {
-            "titulo": "Sintaxe e tipos",
-            "descricao": "Como declarar variáveis e funções com primazia",
-            "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types"
-        },
-        {
-            "titulo": "Algoritmos e estrutura de dados com JavaScript",
-            "descricao": "Aprendendo as bases da programação com JavaScript.",
-            "link": "https://imasters.com.br/desenvolvimento/algoritmos-e-estrutura-de-dados-classicos-em-javascript"
-        },
         {
             "titulo": "O que é JavaScript?",
             "descricao": "Video",
@@ -114,20 +115,25 @@
             "link": "https://www.youtube.com/watch?v=_Mx64Rkv92c"
         },
         {
-            "titulo": "Alterando CSS com JavaScript",
-            "descricao": "Artigo Alura",
-            "link": "https://www.alura.com.br/artigos/alterando-css-com-javascript"
-        },
-        {
-            "titulo": "Capturando valor do input: introdução a seletores",
-            "descricao": "Artigo Alura",
-            "link": "https://www.alura.com.br/artigos/capturando-valor-do-input-introducao-a-seletores"
+            "titulo": "Sintaxe e tipos",
+            "descricao": "Como declarar variáveis e funções com primazia",
+            "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types"
         },
         {
             "titulo": "Como utilizar operadores de comparação em Javascript",
             "descricao": "Artigo Alura",
             "link": "https://www.alura.com.br/artigos/operadores-matematicos-em-javascript"
         },
+        {
+            "titulo": "Algoritmos e estrutura de dados com JavaScript",
+            "descricao": "Aprendendo as bases da programação com JavaScript.",
+            "link": "https://imasters.com.br/desenvolvimento/algoritmos-e-estrutura-de-dados-classicos-em-javascript"
+        },              
+        {
+            "titulo": "Capturando valor do input: introdução a seletores",
+            "descricao": "Artigo Alura",
+            "link": "https://www.alura.com.br/artigos/capturando-valor-do-input-introducao-a-seletores"
+        },        
         {
             "titulo": "Entenda a diferença entre var, let e const no JavaScript",
             "descricao": "Artigo Alura",
@@ -137,6 +143,11 @@
             "titulo": "Learn JavaScript - Full Course for Beginners",
             "descricao": "Curso/Video (Inglês)",
             "link": "https://www.youtube.com/watch?v=PkZNo7MFNFg"
+        },
+        {
+            "titulo": "Alterando CSS com JavaScript",
+            "descricao": "Artigo Alura",
+            "link": "https://www.alura.com.br/artigos/alterando-css-com-javascript"
         },
         {
             "titulo": "Tutoriais de JavaScript",
