@@ -47,6 +47,7 @@ const TextBase = styled.span`
   ${propToStyle('padding')}
   ${propToStyle('textShadow')}
   ${propToStyle('display')}
+  ${propToStyle('width')}
 `;
 
 export default function Text({

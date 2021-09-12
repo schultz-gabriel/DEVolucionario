@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const IndexWrapper = styled.main`
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width:100%;
   margin:0;
   background-color: rgba(0,0,0, 0.1);

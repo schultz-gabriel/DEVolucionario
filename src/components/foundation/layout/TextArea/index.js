@@ -50,6 +50,7 @@ ${breakpointMedia({
     lg: css`
         ${propToStyle('maxWidth')}
         display:flex;
+        flex-direction:column;
     `,
   })};
 `;

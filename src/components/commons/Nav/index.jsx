@@ -11,6 +11,11 @@ const links = [
     icon: '/images/icons/home.png',
   },
   {
+    name: 'estudo',
+    link: '/estudo',
+    icon: '/images/icons/estudo.png',
+  },
+  {
     name: 'sobre nós',
     link: '/sobre',
     icon: '/images/icons/pen.png',
