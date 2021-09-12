@@ -1,10 +1,11 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
+import get from 'lodash/get';
 import NextLink from 'next/link';
 import styled from 'styled-components';
 
 const Anchor = styled.a`
-color: ${({ theme }) => theme.primary.main.contrastText};
+color: ${({ theme, color }) => get(theme, `${color}.color`)};
 text-decoration: none;
 `;
 
