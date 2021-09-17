@@ -72,14 +72,13 @@ export default function Studies() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/omariosouto/awesome-dev-guide-devsoutinho"
+              href="https://gist.github.com/omariosouto/a07a5fe0bb419929bdd65e00c7ef3097"
               color="primary.main"
             >
-              Veja um exemplo de guia para JavaScript.
+              Veja um exemplo de guia para front-end
             </Link>
             <br />
             <br />
-            Procure mais guias como este e use-os para montar sua própria rotina de estudo.
             Procure mais guias como este e use-os para montar sua própria rotina de estudo.
           </Text>
         </TextArea.ContentCol>
@@ -163,7 +162,126 @@ export default function Studies() {
             <br />
             Portanto, integre-se à comunidade! Participe de fóruns, acompanhe eventos e notícias, saiba quais são as linguagens e frameworks da moda e seja um membro ativo nesse balaio de gatos que é a comunidade dev.
             <br />
-            Uma grande vantagem de estudar na Alura é justamente sua comunidade unida e ativa, oque facilita muito o aprendizado enquanto se interage com professores e colegas.
+            Uma grande vantagem de estudar na Alura é justamente sua comunidade unida e ativa, o que facilita muito o aprendizado enquanto se interage com professores e colegas.
+          </Text>
+        </TextArea.ContentCol>
+        <Text
+          variant="subTitle"
+          tag="h2"
+          color="secondary.main"
+          textAlign="center"
+          margin="1rem"
+          width="100%"
+        >
+          O DEV EM "T"
+        </Text>
+        <TextArea.ContentCol>
+          <Text
+            variant="paragraph1"
+            tag="p"
+            color="secondary.main"
+            textAlign="left"
+            margin="1rem"
+            padding={{
+              md: '2rem',
+            }}
+          >
+            Em que você é bom? Você é um jovem que começou a programar recentemente ou alguém formado em transição de carreira?
+            Não importa! Agora é hora de focar em sua jornada, sem nunca deixar de lado
+            <strong> todas </strong>
+            as skills necessárias para ser um bom dev.
+            Lembre-se que saber programar é apenas metade do caminho. Você vai precisar de muito jogo de cintura para alcançar o sucesso.
+            <br />
+            <br />
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.casadocodigo.com.br/products/livro-programador-apaixonado"
+              color="primary.main"
+            >
+              Dica de leitura - O Programador Apaixonado
+            </Link>
+          </Text>
+        </TextArea.ContentCol>
+        <TextArea.DecorativeCol
+          maxWidth="30%"
+        >
+          <Box
+            width="100%"
+          >
+            <img src="/images/vinci.png" alt="" />
+          </Box>
+          <Text
+            variant="paragraph2"
+            tag="p"
+            color="secondary.main"
+            textAlign="left"
+          >
+            "Assim como todo o reino dividido é desfeito, toda a inteligência dividida em diversos estudos se confunde e enfraquece."
+          </Text>
+          <Text
+            variant="paragraph2"
+            tag="p"
+            color="secondary.main"
+            padding="5px"
+          >
+            -Leonardo da Vinci
+          </Text>
+        </TextArea.DecorativeCol>
+        <Text
+          variant="subTitle"
+          tag="h2"
+          color="secondary.main"
+          textAlign="center"
+          margin="1rem"
+          width="100%"
+        >
+          ESTUDAR, ESTUDAR E ESTUDAR...
+        </Text>
+        <TextArea.DecorativeCol
+          maxWidth="30%"
+        >
+          <Box
+            width="100%"
+
+          >
+            <img src="/images/gates.png" alt="" />
+          </Box>
+          <Text
+            variant="paragraph2"
+            tag="p"
+            color="secondary.main"
+            textAlign="left"
+          >
+            “Meus filhos terão computadores, sim, mas antes terão livros. Sem livros, sem leitura, os nossos filhos serão incapazes de escrever – inclusive a sua própria história.”
+          </Text>
+          <Text
+            variant="paragraph2"
+            tag="p"
+            color="secondary.main"
+            padding="5px"
+          >
+            -Bil Gates
+          </Text>
+        </TextArea.DecorativeCol>
+        <TextArea.ContentCol>
+          <Text
+            variant="paragraph1"
+            tag="p"
+            color="secondary.main"
+            textAlign="left"
+            margin="1rem"
+            padding={{
+              md: '2rem',
+            }}
+          >
+            Tenho uma má notícia para você. Infelizmente não existem métodos de aprendizado que evitem horas e horas de leitura, atenção e prática.
+            Por isso, prepare-se para horas e horas de estudo para aprender aquele display de CSS (a boa notícia é que dessa forma você vai descobrir se programação é realmente o que você quer da sua vida).
+            A principal dica é:
+            <strong> adquira o hábito da leitura! </strong>
+            Leia livros do seu interesse, livros de programação ou sobre qualquer outra coisa.
+            <br />
+            Outra má notícia é que talvez você inevitavelmente se torne um nerd de marca maior. Mas calma! Nem tudo está perdido, como mostramos logo abaixo.
           </Text>
         </TextArea.ContentCol>
       </TextArea>
