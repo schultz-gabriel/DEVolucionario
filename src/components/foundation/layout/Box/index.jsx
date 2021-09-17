@@ -11,10 +11,6 @@ const Box = styled.div`
   ${propToStyle('padding')}
   ${propToStyle('alignItems')}
   ${propToStyle('flexWrap')}
-  ${propToStyle('backgroundImage')}
-  ${propToStyle('backgroundRepeat')}
-  ${propToStyle('backgroundPosition')}
-  ${propToStyle('backgroundSize')}
   ${propToStyle('width')}
   ${propToStyle('maxWidth')}
   ${propToStyle('height')}
