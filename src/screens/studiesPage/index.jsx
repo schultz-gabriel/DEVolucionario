@@ -282,6 +282,16 @@ export default function Studies() {
             Leia livros do seu interesse, livros de programação ou sobre qualquer outra coisa.
             <br />
             Outra má notícia é que talvez você inevitavelmente se torne um nerd de marca maior. Mas calma! Nem tudo está perdido, como mostramos logo abaixo.
+            <br />
+            <br />
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.casadocodigo.com.br/"
+              color="primary.main"
+            >
+              Visite a livraria Casa do Código
+            </Link>
           </Text>
         </TextArea.ContentCol>
       </TextArea>
