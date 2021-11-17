@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Como fazer CRUD",
+    "type": "post",
+    "author": {
+      "name": "Gabriel Schultz",
+      "github": "SchultzGabriel"
+    },
+    "date": "00/00/00",
+    "preview": "https://i.imgur.com/ByAta55.png",
+    "slug": "crud",
+    "tags": ["javascript", "crud"],
+    "html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada vestibulum augue at cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed fringilla nunc sed erat tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus pellentesque turpis, eget tincidunt tellus pellentesque nec. Integer ultrices elementum leo. In efficitur bibendum mauris ac ultricies. Integer accumsan nisi eu odio ultricies, in euismod orci porttitor. Quisque malesuada nibh lorem, vel tristique arcu aliquet a.</p><div class=center ><iframe class=video width='auto' height='auto' src='https://www.youtube.com/embed/Po14EijjFYI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada vestibulum augue at cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed fringilla nunc sed erat tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus pellentesque turpis, eget tincidunt tellus pellentesque nec. Integer ultrices elementum leo. In efficitur bibendum mauris ac ultricies. Integer accumsan nisi eu odio ultricies, in euismod orci porttitor. Quisque malesuada nibh lorem, vel tristique arcu aliquet a.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada vestibulum augue at cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed fringilla nunc sed erat tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus pellentesque turpis, eget tincidunt tellus pellentesque nec. Integer ultrices elementum leo. In efficitur bibendum mauris ac ultricies. Integer accumsan nisi eu odio ultricies, in euismod orci porttitor. Quisque malesuada nibh lorem, vel tristique arcu aliquet a.</p><h3>Veja no podcast abaixo:</h3><figure><img src='https://i.imgur.com/ByAta55.png' /><figcaption class=caption>teste123</figcaption></figure><div class=center><iframe class=podcast width=auto height=auto src='https://hipsters.tech/?powerpress_embed=3841-podcast&amp;powerpress_player=mediaelement-audio' frameborder='0' scrolling='no'></iframe></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada vestibulum augue at cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed fringilla nunc sed erat tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus pellentesque turpis, eget tincidunt tellus pellentesque nec. Integer ultrices elementum leo. In efficitur bibendum mauris ac ultricies. Integer accumsan nisi eu odio ultricies, in euismod orci porttitor. Quisque malesuada nibh lorem, vel tristique arcu aliquet a.</p>"
+  },
+  {
+    "title": "Flexbox",
+    "type": "post",
+    "author": {
+      "name": "Gabriel Schultz",
+      "github": "SchultzGabriel"
+    },
+    "date": "00/00/00",
+    "preview": "https://i.imgur.com/dTelEq9.png",
+    "slug": "flex",
+    "tags": ["css", "flex"],
+    "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada vestibulum augue at cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed fringilla nunc sed erat tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus pellentesque turpis, eget tincidunt tellus pellentesque nec. Integer ultrices elementum leo. In efficitur bibendum mauris ac ultricies. Integer accumsan nisi eu odio ultricies, in euismod orci porttitor. Quisque malesuada nibh lorem, vel tristique arcu aliquet a.</p><figure><img src='https://i.imgur.com/ByAta55.png' /><figcaption class=caption>teste123</figcaption></figure><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada vestibulum augue at cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed fringilla nunc sed erat tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus pellentesque turpis, eget tincidunt tellus pellentesque nec. Integer ultrices elementum leo. In efficitur bibendum mauris ac ultricies. Integer accumsan nisi eu odio ultricies, in euismod orci porttitor. Quisque malesuada nibh lorem, vel tristique arcu aliquet a.</p>"
+  }
+]
