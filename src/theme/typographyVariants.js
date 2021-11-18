@@ -17,9 +17,9 @@ const typographyVariants = {
   },
   // [paragraph1]
   paragraph1: {
-    fontSize: '16px',
+    fontSize: '1.125rem',
     fontWeight: '400',
-    lineHeight: 1.25, // 125%
+    lineHeight: 1.5, // 125%
   },
   // [paragraph2]
   paragraph2: {
