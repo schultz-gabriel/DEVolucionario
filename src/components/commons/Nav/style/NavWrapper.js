@@ -2,17 +2,23 @@
 import styled, { css } from 'styled-components';
 import breakpointMedia from '../../../../theme/utils/breakpointMedia';
 
-const NavWrapper = styled.nav`
+const NavWrapper = styled.aside`
+width:fit-content;
+transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-150%)'};
+transition: ${({ theme }) => theme.transition};
+background-color: ${({ theme }) => theme.background.main.color};
+position:absolute;
+margin:0;
+height:fit-content;
+
+
+nav{
 display:flex;
 flex-direction: column;
 justify-content:space-around;
-background-color: ${({ theme }) => theme.background.main.color};
 width:100%;
-height:100%;
-position:absolute;
 transition: ${({ theme }) => theme.transition};
-transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-150%)'};
-margin:0;
+}
 
 ul{
   display:flex;
@@ -56,13 +62,16 @@ ${breakpointMedia({
     flex-shrink:0;
     transform: none;
     position:relative;
-    margin:1rem;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: ${({ theme }) => theme.borderRadius};
-    height:300px;
     background-color: rgba(0,0,0, 0.1);
-    border-radius: ${({ theme }) => theme.borderRadius};
     border: 10px solid #5081FB;
+    margin:1rem;
+
+    nav{
+    width:280px;
+    height:360px;
+  }
 
     li{
       justify-content:left;

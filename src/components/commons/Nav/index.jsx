@@ -8,43 +8,50 @@ const links = [
   {
     name: 'início',
     link: '/',
-    icon: '/images/icons/home.png',
+    icon: '/images/icons/home.svg',
+  },
+  {
+    name: 'blog',
+    link: '/blog',
+    icon: '/images/icons/pen.svg',
   },
   {
     name: 'estudo',
     link: '/estudo',
-    icon: '/images/icons/estudo.png',
+    icon: '/images/icons/estudo.svg',
   },
   {
     name: 'sobre nós',
     link: '/sobre',
-    icon: '/images/icons/pen.png',
+    icon: '/images/icons/group.svg',
   },
 ];
 
 export default function Nav({ open }) {
   return (
     <NavWrapper open={open}>
-      <ul>
-        {links.map((item) => (
-          <li key={item.name}>
-            <Button href={item.link} className="link">
-              <img src={item.icon} alt="" />
-              <Text
-                variant="paragraph1"
-                tag="span"
-                color="secondary.main"
-                textAlign={{
-                  xs: 'center',
-                }}
-                margin="0"
-              >
-                {item.name}
-              </Text>
-            </Button>
-          </li>
-        ))}
-      </ul>
+      <nav>
+        <ul>
+          {links.map((item) => (
+            <li key={item.name}>
+              <Button href={item.link} className="link">
+                <img src={item.icon} alt="" />
+                <Text
+                  variant="paragraph1"
+                  tag="span"
+                  color="secondary.main"
+                  textAlign={{
+                    xs: 'center',
+                  }}
+                  margin="0"
+                >
+                  {item.name}
+                </Text>
+              </Button>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </NavWrapper>
   );
 }
