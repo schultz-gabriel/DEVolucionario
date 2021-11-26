@@ -6,52 +6,41 @@ import Text from '../../foundation/text';
 
 const links = [
   {
-    name: 'início',
+    title: 'início',
     link: '/',
-    icon: '/images/icons/home.svg',
   },
   {
-    name: 'blog',
+    title: 'blog',
     link: '/blog',
-    icon: '/images/icons/pen.svg',
   },
   {
-    name: 'estudo',
-    link: '/estudo',
-    icon: '/images/icons/estudo.svg',
-  },
-  {
-    name: 'sobre nós',
+    title: 'sobre',
     link: '/sobre',
-    icon: '/images/icons/group.svg',
   },
 ];
 
 export default function Nav({ open }) {
   return (
     <NavWrapper open={open}>
-      <nav>
-        <ul>
-          {links.map((item) => (
-            <li key={item.name}>
-              <Button href={item.link} className="link">
-                <img src={item.icon} alt="" />
-                <Text
-                  variant="paragraph1"
-                  tag="span"
-                  color="secondary.main"
-                  textAlign={{
-                    xs: 'center',
-                  }}
-                  margin="0"
-                >
-                  {item.name}
-                </Text>
-              </Button>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <ul>
+        {links.map((item) => (
+          <li key={item.title}>
+            <Button href={item.link} className="link" width="80%">
+              <Text
+                variant="paragraph2"
+                tag="span"
+                color="secondary.main"
+                textAlign={{
+                  xs: 'center',
+                }}
+                margin="0"
+              >
+                {item.title}
+              </Text>
+            </Button>
+          </li>
+        ))}
+      </ul>
     </NavWrapper>
   );
 }

@@ -1,55 +1,33 @@
-import styled, { css } from 'styled-components';
-import breakpointsMedia from '../../../theme/utils/breakpointMedia';
+import React from 'react';
+import PropTypes from 'prop-types';
+import Grid from '../../foundation/layout/Grid';
 
-const ContentWrapper = styled.main`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width:100%;
-  margin:0;
-  background-color: rgba(0,0,0, 0.1);
-  border-radius: ${({ theme }) => theme.borderRadius};
-  border: 12px solid #5081FB;
-  margin:1rem;
-  display:flex;
-  flex-direction:column;
+import ContentWrapper from './style/ContentWrapper';
 
-img {
-  width: 100%;
-}
+const ContentBox = (props) => {
+  const { children } = props;
+  return (
+    <Grid.Container>
+      <Grid.Row
+        marginTop={{ xs: '32px', md: '120px' }}
+        flex="1"
+      >
+        <Grid.Col
+          value={{ xs: 12, md: 10, lg: 8 }}
+          offset={{ md: 1, lg: 2 }}
+          flex={1}
+        >
+          <ContentWrapper>
+            {children}
+          </ContentWrapper>
+        </Grid.Col>
+      </Grid.Row>
+    </Grid.Container>
+  );
+};
 
-.links {
-margin: 20px 0;
-height: 130px;
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
-}
+ContentBox.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
-.links a {
-  width:100%;
-  padding: 10px 0;
-  background-color: ${({ theme }) => theme.primary.main.color};
-  border-radius: 10px;
-  transition: ${({ theme }) => theme.transition};
-}
-
-.links a:hover {
-  transform: scale(1.04);
-}
-
-${breakpointsMedia({
-    md: css`
-    .links{
-      flex-direction: row;
-    }
-     .links a {
-      width: 30%;
-
-     }
-    `,
-  })}
-`;
-
-export { ContentWrapper as default };
+export default ContentBox;

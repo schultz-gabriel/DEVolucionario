@@ -36,12 +36,13 @@ export default function WebsitePageWrapper({
         toggleTheme={toggleTheme}
         hamburger={() => setMenuState(!isMenuOpen)}
         open={isMenuOpen}
-      />
+      >
+        <Nav open={isMenuOpen} />
+      </Header>
       <Box
         display="flex"
         height="100%"
       >
-        <Nav open={isMenuOpen} />
         {children}
       </Box>
       <Footer />

@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import Tooltip from '@material-ui/core/Tooltip';
 import TextArea from '../../components/foundation/layout/TextArea';
 import Text from '../../components/foundation/text';
-import IndexWrapper from '../IndexPage/style/IndexWrapper';
 import WrapperContributorsData from './style';
+import ContentBox from '../../components/commons/ContentBox';
 
 function SobrePage({ contributorsData }) {
   return (
-    <IndexWrapper>
+    <ContentBox>
       <Text
         variant="title"
         tag="h1"
@@ -63,7 +63,7 @@ function SobrePage({ contributorsData }) {
           </WrapperContributorsData>
         </TextArea.ContentCol>
       </TextArea>
-    </IndexWrapper>
+    </ContentBox>
   );
 }
 

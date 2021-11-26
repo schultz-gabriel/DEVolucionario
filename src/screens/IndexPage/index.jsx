@@ -1,14 +1,12 @@
 /* eslint-disable max-len */
 import React from 'react';
-import IndexWrapper from './style/IndexWrapper';
 import TextArea from '../../components/foundation/layout/TextArea';
 import Text from '../../components/foundation/text';
-import Link from '../../components/foundation/link';
-// import welcome from './animations/welcome';
+import ContentBox from '../../components/commons/ContentBox';
 
 export default function Main() {
   return (
-    <IndexWrapper>
+    <ContentBox>
       <Text
         variant="title"
         tag="h1"
@@ -21,7 +19,7 @@ export default function Main() {
         BEM-VINDO!
       </Text>
       <TextArea>
-        <TextArea.ContentCol>
+        <TextArea.ContentCol fullWidth>
           <Text
             variant="paragraph1"
             tag="p"
@@ -34,20 +32,12 @@ export default function Main() {
             }}
             textJustify="justify"
           >
-            Se você está aqui, é porque está dando seus primeiros mergulhos em tecnologia. Ficamos muito felizes com isso, e nos unimos para ajudar você nesse incrível início de jornada e criamos essa biblioteca de materiais que irá auxiliá-lo. Desejamos uma maravilhosa imersão dev a todos!
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {' '}
+
           </Text>
-          <div className="links">
-            <Link href="/htmlpage">HTML</Link>
-            <Link href="/csspage">CSS</Link>
-            <Link href="/jspage">JAVASCRIPT</Link>
-          </div>
         </TextArea.ContentCol>
-        <TextArea.DecorativeCol
-          maxWidth="30%"
-        >
-          <img src="/images/saly.png" alt="" />
-        </TextArea.DecorativeCol>
       </TextArea>
-    </IndexWrapper>
+    </ContentBox>
   );
 }

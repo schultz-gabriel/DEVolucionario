@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import breakpointsMedia from '../../../theme/utils/breakpointMedia';
+import breakpointsMedia from '../../../../theme/utils/breakpointMedia';
 
-const IndexWrapper = styled.main`
+const ContentWrapper = styled.main`
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -9,8 +9,8 @@ const IndexWrapper = styled.main`
   margin:0;
   background-color: rgba(0,0,0, 0.1);
   border-radius: ${({ theme }) => theme.borderRadius};
-  border: 12px solid #5081FB;
-  margin:1rem;
+  border: 12px solid ${({ theme }) => theme.borders.main.color};
+  margin-top:1rem;
   display:flex;
   flex-direction:column;
 
@@ -46,10 +46,9 @@ ${breakpointsMedia({
     }
      .links a {
       width: 30%;
-
      }
     `,
   })}
 `;
 
-export { IndexWrapper as default };
+export { ContentWrapper as default };
