@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Box from '../../components/foundation/layout/Box';
-import ContentWrapper from '../../components/commons/ContentBox';
+import ContentBox from '../../components/commons/ContentBox';
 import PostScreenWrapper from './style/PostWrapper';
 
 const PostScreen = (props) => {
   const { post } = props;
 
   return (
-    <ContentWrapper>
+    <ContentBox>
       <PostScreenWrapper>
         <PostScreenWrapper.HeaderSection>
           <h1>{post.title}</h1>
@@ -36,7 +36,7 @@ const PostScreen = (props) => {
         />
         <p>q</p>
       </PostScreenWrapper>
-    </ContentWrapper>
+    </ContentBox>
   );
 };
 

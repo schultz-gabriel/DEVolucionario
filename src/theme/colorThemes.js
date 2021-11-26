@@ -47,7 +47,7 @@ export const dark = {
   },
   borders: {
     main: {
-      color: '#62C0EA',
+      color: '#5081FB',
     },
   },
   primary: {

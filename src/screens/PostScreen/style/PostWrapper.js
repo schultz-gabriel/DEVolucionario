@@ -43,7 +43,7 @@ ${breakpointMedia({
     `,
     md: css`
     width:100%;
-    padding: 0 100px;
+    /* padding: 0 100px; */
     `,
   })};
 

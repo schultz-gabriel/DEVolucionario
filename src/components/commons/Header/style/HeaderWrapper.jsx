@@ -10,15 +10,36 @@ const HeaderWrapper = styled.header`
   z-index: 2;
   padding:1rem;
 
-  div:nth-child(3){
+  .nav_md{
+    display: none;
+  }
+
+  .nav_sm{
+    display: block;
+    width: 100%;
+  }
+
     ${breakpointMedia({
     sm: css`
         `,
     md: css`
-    display:none;
+
+      .nav_sm{
+        display: none;
+    }
+
+      .nav_md{
+    display: flex;
+    margin: 0 0 0 auto;
+    }
+
+    div:nth-child(4){
+      display: none;
+}
     `,
   })};
-}
+
+
 `;
 
 export { HeaderWrapper as default };

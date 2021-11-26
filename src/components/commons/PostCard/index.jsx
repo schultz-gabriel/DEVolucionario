@@ -65,7 +65,8 @@ const PostCard = (props) => {
 };
 
 PostCard.propTypes = {
-  items: PropTypes.shape().isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  items: PropTypes.array.isRequired,
 };
 
 export default PostCard;

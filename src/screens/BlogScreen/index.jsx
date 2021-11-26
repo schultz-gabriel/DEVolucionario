@@ -3,12 +3,12 @@ import React from 'react';
 import posts from '../../../blog_posts';
 import PostCard from '../../components/commons/PostCard';
 
-import ContentWrapper from '../../components/commons/ContentBox';
+import ContentBox from '../../components/commons/ContentBox';
 
 const BlogScreen = () => (
-  <ContentWrapper>
+  <ContentBox>
     <PostCard items={posts} />
-  </ContentWrapper>
+  </ContentBox>
 );
 
 BlogScreen.propTypes = {
