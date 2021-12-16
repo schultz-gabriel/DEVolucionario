@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Box from '../../components/foundation/layout/Box';
 import ContentBox from '../../components/commons/ContentBox';
 import PostScreenWrapper from './style/PostWrapper';
+import ScrollButton from '../../components/commons/ScrollUpButton';
 
 const PostScreen = (props) => {
   const { post } = props;
@@ -34,7 +35,7 @@ const PostScreen = (props) => {
             __html: post.html,
           }}
         />
-        <p>q</p>
+        <ScrollButton />
       </PostScreenWrapper>
     </ContentBox>
   );
@@ -44,7 +45,7 @@ PostScreen.propTypes = {
   post: PropTypes.shape({
     title: PropTypes.string,
     date: PropTypes.string,
-    author: PropTypes.string,
+    author: PropTypes.shape(),
     html: PropTypes.string,
   }).isRequired,
 };

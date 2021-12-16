@@ -7,7 +7,7 @@ export default function Nav() {
     <FooterWrapper>
       <Text
         variant="paragraph1"
-        tag="p"
+        tag="span"
         color="secondary.main"
         textAlign={{
           xs: 'center',
@@ -17,7 +17,7 @@ export default function Nav() {
           md: '1rem',
         }}
       >
-        Aluralunos &copy; - 2021
+        DEVolucionarios &copy; - 2021
       </Text>
     </FooterWrapper>
   );
