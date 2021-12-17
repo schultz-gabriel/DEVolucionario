@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <link rel="icon" sizes="32x32" href="https://i.postimg.cc/9QsJ4fsN/image.png" type="image/png" />
+          <link rel="icon" sizes="32x32" href="/images/favicon.png" type="image/png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
