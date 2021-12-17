@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 
 export default function SEO({ headTitle }) {
   const hasHeadTitle = Boolean(headTitle);
-  const baseTitle = 'Aluralunos';
+  const baseTitle = 'DEVolucionario';
   const title = hasHeadTitle
     ? (`${headTitle} | ${baseTitle}`)
     : baseTitle;
 
-  const description = 'Saiba como dar os primeiros passos no mundo da programação com essa iniciativa dos alunos da alura!';
-  const image = 'https://media.cuponeria.com.br/2020/07/63f02582-cupom-de-desconto-alura.png';
-  const urlBase = 'https://aluralunos.vercel.app/';
+  const description = 'A revolução DEV!';
+  const image = '';
+  const urlBase = '';
 
   return (
     <Head>

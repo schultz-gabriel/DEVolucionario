@@ -9,14 +9,6 @@ const links = [
     title: 'início',
     link: '/',
   },
-  {
-    title: 'blog',
-    link: '/blog',
-  },
-  {
-    title: 'sobre',
-    link: '/sobre',
-  },
 ];
 
 export default function Nav({ open }) {

@@ -18,6 +18,7 @@ h2, h3{
   font-size: ${({ theme }) => theme.typographyVariants.subTitle.fontSize};
   font-weight: ${({ theme }) => theme.typographyVariants.subTitle.fontWeight};
   line-height: ${({ theme }) => theme.typographyVariants.subTitle.lineHeight};
+  margin: 3rem 0 1rem 0 ;
 }
 
 p{

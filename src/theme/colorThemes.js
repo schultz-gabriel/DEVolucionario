@@ -11,25 +11,25 @@ export const light = {
   },
   borders: {
     main: {
-      color: '#62C0EA',
+      color: '#92e5a1',
     },
   },
   primary: {
     main: {
-      color: '#0b44d4',
-      // contrastText: '#fff',
+      color: '#80ce87',
+      contrastText: '#fff',
     },
   },
   secondary: {
     main: {
-      color: '#141414',
-      // contrastText: '#fff',
+      color: '#000',
+      contrastText: '#fff',
     },
   },
   tertiary: {
     main: {
-      color: '#757373',
-      // contrastText: '#fff',
+      color: 'blue',
+      contrastText: '#fff',
     },
   },
 };
@@ -39,7 +39,7 @@ export const dark = {
 
   background: {
     main: {
-      color: '#051D3B',
+      color: '#020204',
     },
     light: {
       color: '#141414',
@@ -47,25 +47,25 @@ export const dark = {
   },
   borders: {
     main: {
-      color: '#5081FB',
+      color: '#22b455',
     },
   },
   primary: {
     main: {
-      color: '#5081FB',
-      // contrastText: '#fff',
+      color: '#204829',
+      contrastText: '#fff',
     },
   },
   secondary: {
     main: {
       color: '#FFFFFF',
-      // contrastText: '#fff',
+      contrastText: '#fff',
     },
   },
   tertiary: {
     main: {
       color: '#CECECE',
-      // contrastText: '#fff',
+      contrastText: '#fff',
     },
   },
 };
