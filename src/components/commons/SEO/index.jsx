@@ -10,7 +10,7 @@ export default function SEO({ headTitle }) {
     : baseTitle;
 
   const description = 'A revolução DEV!';
-  const image = '';
+  const image = 'https://i.imgur.com/qlDNx26.png';
   const urlBase = '';
 
   return (
