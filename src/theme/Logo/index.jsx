@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const LogoWrapper = styled.div`
+const LogoWrapper = styled.a`
   display:flex;
-  background-color: #204829;
+  background-color: rgba(0,0,0,0.2);
   border-radius: ${({ theme }) => theme.borderRadius};
-  padding: 5px;
+  padding: 5px 1rem;
   img{
     width:190px;
   }
@@ -13,8 +13,8 @@ const LogoWrapper = styled.div`
 
 export default function Logo() {
   return (
-    <LogoWrapper>
-      <img src="/images/logo.png" alt="" />
+    <LogoWrapper href="/">
+      <img src="/images/logo.png" alt="logo devolucionários" />
     </LogoWrapper>
   );
 }

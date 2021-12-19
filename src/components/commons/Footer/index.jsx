@@ -17,7 +17,7 @@ export default function Nav() {
           md: '1rem',
         }}
       >
-        DEVolucionarios &copy; - 2021
+        DEVolucionario &copy; - 2021
       </Text>
     </FooterWrapper>
   );

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import Header from '../../commons/Header';
 import Nav from '../../commons/Nav';
 import Footer from '../../commons/Footer';
-// import Modal from '../../commons/Modal';
 import Box from '../../foundation/layout/Box';
 import SEO from '../../commons/SEO';
 
@@ -16,7 +15,6 @@ export default function WebsitePageWrapper({
   children,
   seoProps,
   toggleTheme,
-  // pageBoxProps,
 }) {
   const [isMenuOpen, setMenuState] = React.useState(false);
 

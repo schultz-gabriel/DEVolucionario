@@ -2,15 +2,17 @@ import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
-export default function SEO({ headTitle }) {
+export default function SEO({ headTitle, prevImage }) {
   const hasHeadTitle = Boolean(headTitle);
   const baseTitle = 'DEVolucionario';
   const title = hasHeadTitle
     ? (`${headTitle} | ${baseTitle}`)
     : baseTitle;
 
+  const hasPrevImage = Boolean(prevImage);
+
   const description = 'A revolução DEV!';
-  const image = 'https://i.imgur.com/qlDNx26.png';
+  const image = hasPrevImage ? prevImage : 'https://i.imgur.com/qlDNx26.png';
   const urlBase = '';
 
   return (
@@ -38,8 +40,10 @@ export default function SEO({ headTitle }) {
 
 SEO.defaultProps = {
   headTitle: '',
+  prevImage: '',
 };
 
 SEO.propTypes = {
   headTitle: PropTypes.string,
+  prevImage: PropTypes.string,
 };
