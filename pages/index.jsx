@@ -11,7 +11,7 @@ function Home() {
 export default websitePageHOC(Home, {
   pageWrapperProps: {
     seoProps: {
-      headTitle: 'Blog',
+      headTitle: 'Início',
     },
   },
 });

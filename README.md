@@ -1,14 +1,14 @@
 <p align='center'>
-<img src="https://img.shields.io/badge/Aluralunos-site-blue"/>
-<img src="https://img.shields.io/github/license/SchultzGabriel/Aluralunos"/>
-<img src="https://img.shields.io/website?url=https%3A%2F%2Faluralunos.vercel.app%2F"/>
+<img src="https://img.shields.io/badge/DEVolucionario-site-blue"/>
+<img src="https://img.shields.io/github/license/SchultzGabriel/DEVolucionario"/>
+<img src="https://img.shields.io/website?url=https%3A%2F%2Fdevolucionario.vercel.app%2F"/>
 </p>
 <br>
 
-<h1 align='center'> Aluralunos </h1>
-<h3 align="center"><a href="https://aluralunos.vercel.app/" target="_blank" rel="noopener noreferrer">Clique aqui para conferir o site!</a><h3><br>
+<h1 align='center'> DEVolucionário </h1>
+<h3 align="center"><a href="https://devolucionario.vercel.app/" target="_blank" rel="noopener noreferrer">Clique aqui para conferir o site!</a><h3><br>
 
-<p align="center">
+<!-- <p align="center">
 <img src="https://i.postimg.cc/nLyBxRCX/aluralunos.png" alt="Site Aluralunos" width="800" height=""/>
 </p>
   
@@ -17,7 +17,7 @@ Se você está aqui agora, é porque está dando seus primeiros mergulhos em tec
 ## 🧠 Funcionalidades
 
   - Na página Inicial voce pode ser redirecionado para os materiais
-  - Na página Sobre Nós, voce pode conhecer um pouco mais sobre o projeto e sobre as pessoas que participaram dele.
+  - Na página Sobre Nós, voce pode conhecer um pouco mais sobre o projeto e sobre as pessoas que participaram dele. -->
 
 ## 👁‍🗨 CI/CD
 
@@ -30,7 +30,7 @@ Para configuração do projeto utilizamos o ESLint, Husky e Conventional Commits
 
 1. Clonar repositorio
 ```
-git clone https://github.com/SchultzGabriel/Aluralunos && cd Aluralunos
+git clone https://github.com/SchultzGabriel/DEVolucionario && cd DEVolucionario
 ```
 
 2. Instalar dependências

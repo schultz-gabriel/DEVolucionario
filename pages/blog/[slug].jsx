@@ -33,6 +33,7 @@ export async function getStaticProps({ params }) {
       pageWrapperProps: {
         seoProps: {
           headTitle: pageData.postData.title,
+          prevImage: pageData.postData.preview,
         },
       },
     },
