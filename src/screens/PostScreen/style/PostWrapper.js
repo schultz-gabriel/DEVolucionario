@@ -28,11 +28,22 @@ p{
   margin-bottom: 1em;
 }
 
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+
 figcaption{
   font-size: ${({ theme }) => theme.typographyVariants.paragraph2.fontSize};
   font-weight: ${({ theme }) => theme.typographyVariants.paragraph2.fontWeight};
   line-height: ${({ theme }) => theme.typographyVariants.paragraph2.lineHeight};
   text-align: center;
+}
+
+a{
+  color: #92e5a1;
 }
 
 ${breakpointMedia({
@@ -97,6 +108,7 @@ ${breakpointMedia({
     `,
   })};
 
+.
 
 `;
 

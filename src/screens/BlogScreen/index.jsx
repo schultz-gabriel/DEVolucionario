@@ -1,18 +1,17 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-import posts from '../../../blog_posts';
-import PostCard from '../../components/commons/PostCard';
 
+import blogPosts from '../../../blog_posts';
+
+import PostCard from '../../components/commons/PostCard';
+import PostList from './style/BlogWrapper';
 import ContentBox from '../../components/commons/ContentBox';
 
 const BlogScreen = () => (
   <ContentBox>
-    <PostCard items={posts} />
+    <PostList>
+      {blogPosts.map((item) => (<PostCard key={item.title} item={item} />))}
+    </PostList>
   </ContentBox>
 );
-
-BlogScreen.propTypes = {
-
-};
 
 export default BlogScreen;

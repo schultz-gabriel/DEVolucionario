@@ -35,7 +35,9 @@ const PostScreen = (props) => {
             __html: post.html,
           }}
         />
-        <ScrollButton />
+        <ScrollButton>
+          Voltar ao topo
+        </ScrollButton>
       </PostScreenWrapper>
     </ContentBox>
   );

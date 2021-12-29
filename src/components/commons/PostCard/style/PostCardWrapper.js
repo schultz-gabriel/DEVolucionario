@@ -1,16 +1,8 @@
 import styled, { css } from 'styled-components';
 import breakpointsMedia from '../../../../theme/utils/breakpointMedia';
 
-const CardWrapper = styled.ul`
-  margin: 50px 0;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 0 10%;
-
-  li {
+const CardWrapper = styled.li`
     padding: 10px 0;
-  }
 
   .link {
     background-color: ${({ theme }) => theme.primary.main.color};

@@ -26,7 +26,14 @@ const NotFoundScreen = () => (
         variant="secondary.main"
         href="/"
       >
-        Voltar ao início
+        <Text
+          color="primary.main"
+          tag="span"
+          variant="paragraph1"
+          textAlign="center"
+        >
+          Voltar ao início
+        </Text>
       </Button>
     </ContentBox>
   </Box>
