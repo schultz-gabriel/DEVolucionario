@@ -23,13 +23,13 @@ export const light = {
   secondary: {
     main: {
       color: '#000',
-      contrastText: '#fff',
+      contrastText: '#000',
     },
   },
   tertiary: {
     main: {
-      color: 'blue',
-      contrastText: '#fff',
+      color: '#92e5a1',
+      contrastText: '#22b455',
     },
   },
 };
@@ -58,14 +58,14 @@ export const dark = {
   },
   secondary: {
     main: {
-      color: '#FFFFFF',
+      color: '#FFF',
       contrastText: '#fff',
     },
   },
   tertiary: {
     main: {
       color: '#CECECE',
-      contrastText: '#fff',
+      contrastText: '#80ce87',
     },
   },
 };

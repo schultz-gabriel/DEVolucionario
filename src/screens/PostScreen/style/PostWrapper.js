@@ -4,7 +4,7 @@ import breakpointMedia from '../../../theme/utils/breakpointMedia';
 const PostScreenWrapper = styled.main`
 
 p, h1, h2, h3, h4, h5, h6, figcaption{
-  color: ${({ theme }) => theme.secondary.main.color};
+  color: ${({ theme }) => theme.secondary.main.contrastText};
 }
 
 h1{
@@ -31,8 +31,8 @@ p{
 figure{
   display: flex;
   flex-direction: column;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
 }
 
 figcaption{
@@ -43,7 +43,11 @@ figcaption{
 }
 
 a{
-  color: #92e5a1;
+  color: ${({ theme }) => theme.tertiary.main.contrastText};
+}
+
+.scroolButtonDesktop{
+    display: none;
 }
 
 ${breakpointMedia({
@@ -54,8 +58,32 @@ ${breakpointMedia({
     padding: 0 20px;
     `,
     md: css`
-    width:100%;
-    /* padding: 0 100px; */
+    width: 100%;
+
+    .hiddenOnDesktop{
+      display: none;
+    }
+    .scroolButtonDesktop{
+      display: block;
+      position: fixed;
+      bottom: 0;
+      right:0;
+
+      &:hover{
+        transform: scale(1.1);
+        transition: ${({ theme }) => theme.transition};
+      }
+    }
+    `,
+    lg: css`
+    .scroolButtonDesktop{
+      right: 50px;
+    }
+    `,
+    xl: css`
+    .scroolButtonDesktop{
+      right: 100px;
+    }
     `,
   })};
 
