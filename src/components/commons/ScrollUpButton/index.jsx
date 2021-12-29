@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from '../Button';
 import Text from '../../foundation/text';
 
-const ScrollButton = () => {
+const ScrollButton = ({ children }) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -21,10 +22,14 @@ const ScrollButton = () => {
         }}
         margin="0"
       >
-        Voltar ao topo
+        {children}
       </Text>
     </Button>
   );
+};
+
+ScrollButton.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default ScrollButton;
