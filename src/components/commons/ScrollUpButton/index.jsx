@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import Button from '../Button';
 import Text from '../../foundation/text';
 
-const ScrollButton = ({ children }) => {
+const ScrollButton = ({ children, ghost }) => {
+  const isGhost = Boolean(ghost);
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -12,7 +14,7 @@ const ScrollButton = ({ children }) => {
   };
 
   return (
-    <Button onClick={scrollToTop} variant="primary.main" fullWidth margin="1rem 0">
+    <Button onClick={scrollToTop} variant="primary.main" fullWidth margin="1rem 0" ghost={isGhost}>
       <Text
         variant="paragraph1"
         tag="span"
@@ -30,6 +32,11 @@ const ScrollButton = ({ children }) => {
 
 ScrollButton.propTypes = {
   children: PropTypes.node.isRequired,
+  ghost: PropTypes.bool,
+};
+
+ScrollButton.defaultProps = {
+  ghost: false,
 };
 
 export default ScrollButton;
