@@ -35,4 +35,4 @@ function propToStyle(propName) {
   };
 }
 
-export { propToStyle as default };
+export default propToStyle;
