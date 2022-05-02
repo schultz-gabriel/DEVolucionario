@@ -42,11 +42,9 @@ export default function App({ Component, pageProps }) {
   };
 
   return (
-    <>
-      <ThemeProvider theme={allThemes}>
-        <GlobalStyle />
-        <Component toggleTheme={handleToggleTheme} {...pageProps} />
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={allThemes}>
+      <GlobalStyle />
+      <Component toggleTheme={handleToggleTheme} {...pageProps} />
+    </ThemeProvider>
   );
 }

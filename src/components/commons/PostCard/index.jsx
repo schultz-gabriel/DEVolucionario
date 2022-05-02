@@ -6,7 +6,7 @@ import Box from '../../foundation/layout/Box';
 import Text from '../../foundation/text';
 import Link from '../../foundation/link';
 
-const PostCard = (props) => {
+function PostCard(props) {
   const { item } = props;
   return (
     <CardWrapper>
@@ -57,7 +57,7 @@ const PostCard = (props) => {
       </Link>
     </CardWrapper>
   );
-};
+}
 
 PostCard.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types

@@ -4,7 +4,7 @@ import Grid from '../../foundation/layout/Grid';
 
 import ContentWrapper from './style/ContentWrapper';
 
-const ContentBox = (props) => {
+function ContentBox(props) {
   const { children } = props;
   return (
     <Grid.Container>
@@ -24,7 +24,7 @@ const ContentBox = (props) => {
       </Grid.Row>
     </Grid.Container>
   );
-};
+}
 
 ContentBox.propTypes = {
   children: PropTypes.node.isRequired,
