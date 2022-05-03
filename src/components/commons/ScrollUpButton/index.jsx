@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Button from '../Button';
 import Text from '../../foundation/text';
 
-const ScrollButton = ({ children, ghost }) => {
+function ScrollButton({ children, ghost }) {
   const isGhost = Boolean(ghost);
 
   const scrollToTop = () => {
@@ -28,7 +28,7 @@ const ScrollButton = ({ children, ghost }) => {
       </Text>
     </Button>
   );
-};
+}
 
 ScrollButton.propTypes = {
   children: PropTypes.node.isRequired,

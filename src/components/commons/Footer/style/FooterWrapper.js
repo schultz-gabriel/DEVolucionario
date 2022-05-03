@@ -12,4 +12,4 @@ ${breakpointMedia({
   })};
 `;
 
-export { FooterWrapper as default };
+export default FooterWrapper;

@@ -66,4 +66,4 @@ ${breakpointMedia({
   })};
 `;
 
-export { NavWrapper as default };
+export default NavWrapper;

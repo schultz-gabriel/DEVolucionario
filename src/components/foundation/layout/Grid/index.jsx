@@ -136,4 +136,4 @@ const Grid = {
   `,
 };
 
-export { Grid as default };
+export default Grid;

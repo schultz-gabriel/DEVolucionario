@@ -42,4 +42,4 @@ const HeaderWrapper = styled.header`
 
 `;
 
-export { HeaderWrapper as default };
+export default HeaderWrapper;

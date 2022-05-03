@@ -140,4 +140,4 @@ ${breakpointMedia({
 
 `;
 
-export { PostScreenWrapper as default };
+export default PostScreenWrapper;

@@ -51,4 +51,4 @@ ${breakpointsMedia({
   })}
 `;
 
-export { ContentWrapper as default };
+export default ContentWrapper;

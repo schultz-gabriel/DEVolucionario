@@ -16,4 +16,5 @@ const Box = styled.div`
   ${propToStyle('height')}
   ${propToStyle('textAlign')}
 `;
-export { Box as default };
+
+export default Box;

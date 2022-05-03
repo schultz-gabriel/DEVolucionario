@@ -83,4 +83,4 @@ Button.propTypes = {
   blank: PropTypes.bool,
 };
 
-export { Button as default };
+export default Button;

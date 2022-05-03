@@ -13,4 +13,4 @@ function breakpointsMedia(cssByBreakpoints) {
       }
     `);
 }
-export { breakpointsMedia as default };
+export default breakpointsMedia;

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import PropTypes from 'prop-types';
