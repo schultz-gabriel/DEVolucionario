@@ -20,10 +20,10 @@ export default class MyDocument extends Document {
         styles: [
           <Html lang="pt-BR">
             <>
-            {initialProps.styles}
-            {sheet.getStyleElement()}
+              {initialProps.styles}
+              {sheet.getStyleElement()}
             </>
-          </Html>
+          </Html>,
         ],
       };
     } finally {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { GetStaticProps, GetStaticPaths } from 'next'
+import { GetStaticProps, GetStaticPaths } from 'next';
 
 import websitePageHOC from '../../src/wrappers/websitePage/hoc';
 import PostScreen from '../../src/screens/PostScreen';
@@ -8,7 +8,7 @@ import { IPost } from '../../src/screens/PostScreen/types';
 
 import posts from '../../blog_posts.json';
 
-function PostPage({ post }:IPost) {
+function PostPage({ post }: IPost) {
   return (
     <PostScreen post={post} />
   );
@@ -16,8 +16,8 @@ function PostPage({ post }:IPost) {
 
 export default websitePageHOC(PostPage);
 
-export const getStaticProps:GetStaticProps = async ({ params }:any) => {
-  const pageData:any = posts.reduce((accumulatedValues, post) => {
+export const getStaticProps: GetStaticProps = async ({ params }: any) => {
+  const pageData: any = posts.reduce((accumulatedValues, post) => {
     const foundPost = post.slug === params.slug;
 
     if (foundPost) {
@@ -39,10 +39,10 @@ export const getStaticProps:GetStaticProps = async ({ params }:any) => {
       },
     },
   };
-}
+};
 
-export const getStaticPaths:GetStaticPaths = () => {
-  const paths = posts.reduce((accumulatedValues:any, post) => {
+export const getStaticPaths: GetStaticPaths = () => {
+  const paths = posts.reduce((accumulatedValues: any, post) => {
     const projectSlug = post.slug;
     return [
       ...accumulatedValues,
@@ -54,4 +54,4 @@ export const getStaticPaths:GetStaticPaths = () => {
     paths,
     fallback: false,
   };
-}
+};
