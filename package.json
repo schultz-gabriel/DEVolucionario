@@ -38,7 +38,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
     "husky": "^7.0.4",
-    "typescript": "^4.6.4",
+    "typescript": "^4.9.4",
     "yarn-upgrade-all": "^0.7.1"
   },
   "config": {
